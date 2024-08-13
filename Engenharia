@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre o Linux</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #ccc 3px solid;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        article {
+            margin: 20px 0;
+            padding: 20px;
+            background: #fff;
+            border-radius: 5px;
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            margin: 0 0 15px 0;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Sobre o Linux</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <article>
+            <h2>O que é o Linux?</h2>
+            <p>O Linux é um sistema operacional de código aberto baseado no kernel Linux. Ele foi criado por Linus Torvalds em 1991 e tem sido desenvolvido por uma comunidade global de desenvolvedores desde então. O Linux é conhecido por sua estabilidade, segurança e flexibilidade.</p>
+
+            <h2>Características Principais</h2>
+            <ul>
+                <li><strong>Open Source:</strong> O código fonte do Linux está disponível gratuitamente para qualquer pessoa. Isso permite que usuários e desenvolvedores façam modificações e distribuam suas próprias versões do sistema.</li>
+                <li><strong>Segurança:</strong> O Linux é amplamente reconhecido por sua robustez e segurança. Ele é menos vulnerável a vírus e malware em comparação com outros sistemas operacionais.</li>
+                <li><strong>Personalização:</strong> Com o Linux, os usuários podem personalizar quase todos os aspectos do sistema operacional, desde a interface do usuário até a funcionalidade do sistema.</li>
+                <li><strong>Multiplataforma:</strong> O Linux pode ser executado em uma ampla variedade de dispositivos, incluindo servidores, desktops, laptops, e dispositivos móveis.</li>
+            </ul>
+
+            <h2>Distribuições Populares</h2>
+            <p>Existem várias distribuições (ou "distros") do Linux, cada uma com suas próprias características e objetivos. Algumas das mais populares incluem:</p>
+            <ul>
+                <li><strong>Ubuntu:</strong> Conhecida por sua facilidade de uso e suporte de longo prazo, é uma das distribuições mais populares para iniciantes.</li>
+                <li><strong>Debian:</strong> Famosa por sua estabilidade e robustez, é a base para muitas outras distribuições.</li>
+                <li><strong>Fedora:</strong> Destaca-se por trazer as últimas inovações e tecnologias para o mundo Linux.</li>
+                <li><strong>Arch Linux:</strong> Famosa por sua flexibilidade e controle detalhado, é voltada para usuários avançados.</li>
+            </ul>
+        </article>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Sobre o Linux</p>
+    </footer>
+</body>
+</html>
+
+
